@@ -22,7 +22,7 @@ func init() {
 	//	flag.BoolVar(&nFlag, "n", false, "line no flag")
 	flag.IntVar(&tabWidth, "tab", 4, "tab width")
 	flag.IntVar(&splitNum, "n", -1, "split num if -1 all")
-	flag.StringVar(&delim, "delim", " ", "delim")
+	flag.StringVar(&delim, "delim", " \t,", "delim")
 }
 
 func main() {
